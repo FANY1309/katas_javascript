@@ -67,7 +67,7 @@ it("basicCalculator", () => {
  * Si el argumento no es de tipo number, se devuelve null
  * 
  */
-it("negativeNumber", () => {
+it("getHelloWorld", () => {
   expect(negativeNumber(2)).toEqual(-2);
   expect(negativeNumber(0)).toEqual(-0);
   expect(negativeNumber(-34)).toEqual(-34);
